@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-k8s
-        image: praveen4321/spring-k8s-jenkins-img:1.0
+        image: praveen4321/spring-k8s-jenkins-img:latest
         ports:
         - containerPort: 9090
 
